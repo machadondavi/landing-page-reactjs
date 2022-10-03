@@ -5,7 +5,8 @@ import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
-import SignUp from './components/pages/SignUp';
+import Apresentacao from './components/pages/Apresentacao';
+import Espaco from './components/pages/Espaco';
 
 function App(){
     return(
@@ -14,8 +15,10 @@ function App(){
             <Navbar />
             <Switch>
                 <Route path='/' exact component={Home} />
-                <Route path='/apresentacao' component={Services} />
+                <Route path='/apresentacao' component={Apresentacao} />
+                <Route path='/servicos' component={Services} />
                 <Route path='/tecnicas' component={Products} />
+                <Route path='/nosso-espaco' component={Espaco} />
             </Switch>
        </Router>
             

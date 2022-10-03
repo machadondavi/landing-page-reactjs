@@ -7,7 +7,7 @@ import { Button } from './Button'
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <h1>RAQUEL MACHADO</h1>
+            <h1>RAQUEL NEVES</h1>
             <p>Massoterapeuta</p>
         </div>
     )
